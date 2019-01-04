@@ -1,0 +1,30 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+
+//
+#sec1{
+height: 900px;
+  background-image: url("/img/wallpaper.jpg");
+  background-size: 100%;
+//background-image:  url("{{ URL::asset('img/nelio1.png')}}");
+//   background-image: url("{{ asset('img/nelio1.png') }}");
+//background-image:url({{url('img/nelio1.png')}});
+  color:gray;
+}
+
+//custom CSS
+@import "custom";

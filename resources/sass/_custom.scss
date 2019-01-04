@@ -1,0 +1,46 @@
+
+body{
+
+//  padding: 20px !important;
+  background-color:gray;
+//  color: #83B5FF;
+color: gray;
+}
+
+#about{
+background-color: white;
+ color:gray;
+ padding: 20px;
+ border-radius: 3%;
+}
+
+#post{
+background-color: white;
+padding: 20px;
+border-radius: 8px;
+color:gray;
+
+}
+
+#h{
+  color:white;
+}
+
+#index_h{
+  color:gray;
+}
+
+#footer{
+  color:gray;
+}
+
+#text1{
+
+color:$gray-900;
+}
+
+
+.container-fluid{
+
+  background-color:$danger;
+}
